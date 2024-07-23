@@ -12,6 +12,12 @@ const config: Config = {
         slider: {
           '100%': { left: '-100%' },
         },
+        show: {
+          '100%': { transform: 'translateY(0)', opacity: '1' },
+        },
+      },
+      animation: {
+        show: 'show 0.5s ease-in-out forwards',
       },
     },
   },
