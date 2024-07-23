@@ -294,7 +294,7 @@ function Plan({ children }: { children: React.ReactNode }) {
   return (
     <div
       className={cn(
-        'rounded-lg border border-gray-200 shadow-md shadow-gray-200/50 min-w-96 translate-y-4 opacity-0 transition-all duration-1000',
+        'rounded-lg border border-gray-200 shadow-md shadow-gray-200/50 sm:min-w-96 translate-y-4 opacity-0 transition-all duration-1000',
         isInView && 'translate-y-0 opacity-100'
       )}
       ref={ref}
