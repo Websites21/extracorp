@@ -14,6 +14,6 @@ export default function Home() {
       <Pricing />
       <CTASection />
       <FAQ />
-    </main>'saq'
+    </main>
   );
 }
