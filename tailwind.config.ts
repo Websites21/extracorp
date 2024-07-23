@@ -7,7 +7,13 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        slider: {
+          '100%': { left: '-100%' },
+        },
+      },
+    },
   },
   plugins: [],
 };

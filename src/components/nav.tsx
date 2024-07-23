@@ -12,7 +12,7 @@ export default function Nav() {
   }
 
   return (
-    <nav className='sticky top-0 bg-white border-b border-b-gray-200 mb-16 lg:mb-24'>
+    <nav className='sticky top-0 z-50 bg-white border-b border-b-gray-200 mb-16 lg:mb-24'>
       <div className='max-w-screen-2xl mx-auto px-4 sm:px-8 h-20 flex items-center justify-between'>
         <Link href='/'>
           <img className='w-44' src='/logo.svg' alt='Logo ExtraCorp' />
